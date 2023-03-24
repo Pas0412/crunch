@@ -1,4 +1,5 @@
 <template>
+  <HeaderBar></HeaderBar>
   <div id="app">
     <RouterView />
   </div>
@@ -7,9 +8,11 @@
 
 <script>
 import NavBar from './components/NavBar.vue';
+import HeaderBar from './components/HeaderBar.vue';
 export default {
   components: {
-    NavBar
+    NavBar,
+    HeaderBar
 },
 }
 </script>
